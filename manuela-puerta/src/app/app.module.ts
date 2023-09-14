@@ -6,12 +6,14 @@ import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
+import { RealStateComponent } from './real-state/real-state.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainPageComponent
+    MainPageComponent,
+    RealStateComponent
   ],
   imports: [
     AppRoutingModule,
