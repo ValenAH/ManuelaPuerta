@@ -1,1 +1,61 @@
-<p>real-state works!</p>
+<section class="container-fluid my-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-light ms-5">Proyecto Angelique</h2>
+                <p>Descripcion</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">              
+                <p-carousel [value]="angeliqueProject" [numVisible]="3" [numScroll]="1" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                            <div class="col">
+                                <img src="../../assets/projects/Angelique/{{item.img}}"class="w-100 shadow-2 images" />
+                            </div>
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="text-light ms-5">Proyecto Angelique</h2>
+                <p>Descripcion</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">               
+                <p-carousel [value]="hunabProject" [numVisible]="3" [numScroll]="1" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                            <div class="col">
+                                <img src="../../assets/projects/Hunab/{{item.img}}"class="w-100 shadow-2 images" />
+                            </div>
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="text-light ms-5">Proyecto Maria Tulum</h2>
+                <p>Descripcion</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">               
+                <p-carousel [value]="mariaTulumProject" [numVisible]="3" [numScroll]="1" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                            <div class="col">
+                                <img src="../../assets/projects/Maria-tulum/{{item.img}}"class="w-100 shadow-2 images" />
+                            </div>
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+    </div>
+</section>

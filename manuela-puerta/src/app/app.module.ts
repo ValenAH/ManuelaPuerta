@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { RealStateComponent } from './real-state/real-state.component';
+import { CarouselModule } from 'primeng/carousel';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RealStateComponent } from './real-state/real-state.component';
   imports: [
     AppRoutingModule,
     BrowserModule,
-    RouterModule
+    RouterModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,27 @@
+
+.images
+    height: 16rem
+
+:host ::ng-deep
+
+    .p-carousel
+
+        &-indicators
+            list-style: none
+
+        &-indicator button
+            width: 2rem
+
+        &-prev,
+        &-next
+            color: white
+            background-color: transparent
+            border-radius: 50%
+            border: none
+
+            &:hover
+                color: yellow
+                cursor: pointer
+    
+    .p-highlight button
+        background-color: yellow
