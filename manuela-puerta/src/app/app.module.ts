@@ -8,13 +8,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { RealStateComponent } from './real-state/real-state.component';
 import { CarouselModule } from 'primeng/carousel';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MainPageComponent,
-    RealStateComponent
+    RealStateComponent,
+    AboutMeComponent
   ],
   imports: [
     AppRoutingModule,
